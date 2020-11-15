@@ -41,7 +41,7 @@ class Program
         // 2. Индекс массы тела 
 
         float HeightM = Height / 100f; // перевод в метры
-        BMI = Weight / (HeightM * HeightM);
+        BMI = Weight / (HeightM * HeightM); // Вывод индекса
 
         Console.WriteLine($"\nYour Body Mass Index is {BMI: 0.00} \nNormal index is 18 - 25");
 
